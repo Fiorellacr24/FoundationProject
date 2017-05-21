@@ -1,0 +1,25 @@
+*{
+  font-family: "lato", sans-serif;
+}
+ .slider {
+     width: 60%;
+     margin: 100px auto;
+ }
+
+ .slick-slide {
+   margin: 0px 20px;
+ }
+
+ .slick-slide img {
+   width: 200px;
+   height: 250px;
+ }
+
+ .slick-prev:before,
+ .slick-next:before {
+     color: black;
+ }
+
+ul.slick-dots{
+  display: none !important;
+}
