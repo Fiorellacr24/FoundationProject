@@ -1,6 +1,21 @@
 *{
   font-family: "lato", sans-serif;
 }
+
+div.small-4 a,
+section.footer ul li a{
+   color: #333;
+   font-size: 0.9em;
+   font-weight: 500;
+}
+section.footer ul{
+   list-style: none !important;
+}
+div.small-4 a:hover,
+section.footer ul li a:hover{
+   color: #B7B7B7;
+}
+
  .slider {
      width: 60%;
      margin: 100px auto;
@@ -22,4 +37,12 @@
 
 ul.slick-dots{
   display: none !important;
+}
+
+hr.linea{
+  max-width: 100%;
+}
+
+.column:last-child:not(:first-child){
+  float: left !important;
 }
