@@ -39,16 +39,16 @@
     color: transparent;
     border: none;
     outline: none;
-    background: transparent;
+    background: black;
 }
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
 .slick-next:focus
 {
-    color: transparent;
+    color: rgb(84, 85, 82);
     outline: none;
-    background: transparent;
+    background: rgb(84, 85, 82);
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,

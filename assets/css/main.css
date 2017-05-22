@@ -26,7 +26,7 @@ section.footer ul li a:hover{
  }
 
  .slick-slide img {
-   width: 200px;
+   width: 201px;
    height: 250px;
  }
 
@@ -45,4 +45,36 @@ hr.linea{
 
 .column:last-child:not(:first-child){
   float: left !important;
+}
+
+#app-store{
+  width: 129px;
+}
+.menu>li>a i{
+  font-size: 31px;
+  color:#000;
+}
+.menu>li>a i.icon-twitter-square:hover{
+  color:#4099FF;
+}
+.menu>li>a i.icon-facebook-square:hover{
+  color:#4D69A2;
+}
+.menu>li>a i.icon-pinterest-square:hover{
+  color:#C92228;
+}
+.menu>li>a i.icon-instagram:hover{
+  color:#517FA4;
+}
+div.small-12.medium-3.column ul li a{
+  padding: 0 0.1rem;
+}
+div.input-group-button .color-black{
+  background-color: #000;
+}
+div.small-12.medium-4.column p{
+  font-size: 0.8rem;
+}
+div.small-12.medium-4.column p:last-child{
+  font-size: 0.7rem;
 }
