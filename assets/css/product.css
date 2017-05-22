@@ -1,0 +1,76 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+@media (max-width: 600px){
+	.sub-menu{
+		text-align: center;
+	}
+}
+.cont-off-canvas{
+	clear: both;
+}
+.title{
+	background-color: #333;
+	text-align: center;
+}
+.title a{
+	color: white;
+}
+.position-right{
+	width: 300px !important;
+	transform: translateX(300px);
+}
+.off-canvas-content{
+	height: 60vh;
+}
+.black{
+	background-color: #333;
+	font-family: 'Lato', sans-serif;
+}
+.black:hover{
+	background-color: gray;
+}
+.padding-btn{
+	padding: 10px;
+}
+.title > li > a{
+	justify-content: center !important;
+}
+.close-button i{
+	color: white;
+}
+.list li{
+	border-bottom: 1px solid #e1e1e1;
+}
+.off-canvas-content{
+	background-color: white;
+}
+.list > li > a{
+	display: inline-block !important;
+	color: black;
+}
+.list span{
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.off-canvas.is-open{
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.menu.vertical>li {
+	flex: 0 0 99% !important;
+	border-bottom: 1px solid #bababa;
+}
+.is-accordion-submenu-parent>a:after{
+	border-color: #0a0a0a transparent transparent;
+}
+.is-accordion-submenu-parent a{
+	color: black;
+}
+.txt-color{
+	color: #009c7f;
+}
+.menu.nested {
+	margin-left: 0rem !important;
+}
