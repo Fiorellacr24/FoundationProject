@@ -2,8 +2,8 @@ body{
 	font-family: 'Lato', sans-serif !important;
 }
 @media (max-width: 600px){
-	.sub-menu{
-		text-align: center;
+	.breadcrumbs{
+		visibility: hidden;
 	}
 }
 .description h3, .description h4, .description h6{
@@ -14,6 +14,7 @@ body{
 }
 .txt-gray, .txt-gray > a{
 	color: #666;
+	font-size: 1.38rem;
 }
 .select-xs{
 	width: 70px;
@@ -31,6 +32,15 @@ body{
 .txt-alert{
 	border-color: #d0021b !important;
 	color: #d0021b !important;
+}
+.social{
+	display: flex;
+	flex-wrap: nowrap;
+}
+@media (max-width: 600px){
+	.social{
+		flex-wrap: wrap;
+	}
 }
 .social i{
 	background: white;
