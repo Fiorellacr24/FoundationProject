@@ -9,3 +9,7 @@ $(document).on('ready', function() {
         variableWidth: true
     });
 });
+
+$(".openwindow").click(function(){
+    window.location.href = "wooden.html"
+})
