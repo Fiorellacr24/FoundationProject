@@ -12,6 +12,15 @@ h3, h4, h6, button, .black{
 h3,h4, h6{
     color: black
 }
+.container-product{
+    padding-top: 200px;
+    clear: both;
+}
+@media (max-width: 600px){
+    .container-product{
+        padding-top: 100px;
+    }
+}
 /* txt-color */
 .txt-gray{
     color: #666;
@@ -39,6 +48,14 @@ h3,h4, h6{
     background-color: rgba(51, 51, 51, 0.12);
     width: auto;
     padding: 10px;
+}
+.align-left{
+    margin-left: 50px !important;
+}
+@media (max-width: 600px){
+    .align-left{
+        margin-left: 0 !important;
+    }
 }
 /* IMAGEN */
 .img-small{

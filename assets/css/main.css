@@ -1,4 +1,4 @@
-nav{
+.navigator{
     width: 100% !important;
     height: auto;
     position: fixed;
@@ -17,7 +17,7 @@ nav{
     padding-top: 5px;
     padding-bottom: 5px;
 }
-nav .row{
+.navigator .row{
     max-width: 100% !important;
     padding-bottom: 10px !important;
 }
@@ -151,7 +151,7 @@ nav .row{
 }
 
 @media(max-width: 600px){
-    nav .row{
+    .navigator .row{
         padding-bottom: 0 !important;
     }
     .menu-icon {
@@ -173,7 +173,7 @@ nav .row{
         width: 400px;
         margin-bottom: 20px !important;
     }
-    nav .column, nav .columns {
+    .navigator .column, .navigator .columns {
         padding-right: 0px !important;
         padding-left: 0px !important;
     }
@@ -183,7 +183,7 @@ nav .row{
         height: 1500px !important;
         padding-top: 0 !important;
     }
-    nav{
+    .navigator{
         padding-right: 0 !important;
         padding-left: 0 !important;
     }
